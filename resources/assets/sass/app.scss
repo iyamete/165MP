@@ -1,0 +1,25 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+$innerbackground: #edece8; //beige
+$background: #fffff; //white
+$text: #080808; //dark
+$headertext: #8ac5c3; //green
+
+h1{
+	color: $headertext;
+}
+
+body{
+	background: $background;
+	color: $text;
+}
+
+
